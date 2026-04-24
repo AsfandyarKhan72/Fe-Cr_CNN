@@ -1,4 +1,4 @@
-# Fe-Cr_CNN
+# FeCr_CNN
 
 *Simulation-informed deep learning for estimating phase-field model parameters from Fe-Cr spinodal microstructural morphology.*
 
@@ -29,7 +29,6 @@ This repository is intended to support reproducible research and open scientific
 
 - `train_model.py` — main script for feature extraction, training, evaluation, and experimental inference
 - `data/` — input images and CSV labels
-- `results/` — saved weights, plots, metrics, and predictions
 - `README.md` — project description and usage notes
 
 ## Requirements
