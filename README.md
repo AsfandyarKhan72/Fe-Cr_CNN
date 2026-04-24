@@ -27,8 +27,8 @@ This repository is intended to support reproducible research and open scientific
 
 ## Repository contents
 
-- `train_model.py` — main script for feature extraction, training, evaluation, and experimental inference
 - `data/` — input images and CSV labels
+- `train_model.py` — main script for feature extraction, training, evaluation, and experimental inference
 - `README.md` — project description and usage notes
 
 ## Requirements
