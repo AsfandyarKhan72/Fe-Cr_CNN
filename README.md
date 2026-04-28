@@ -63,22 +63,24 @@ Representative synthetic Fe–Cr spinodal microstructure images from `data/sampl
 
 ---
 
-## Running the code
+## Quick Start
 
-1. Place the synthetic images and `data.csv` in the expected folders.
-2. Update the paths in the script if needed.
-3. Run:
-
+**1. Clone the repository**
 ```bash
 git clone https://github.com/AsfandyarKhan72/Fe-Cr_CNN.git
 cd Fe-Cr_CNN
+```
 
+**2. Create environment and install dependencies**
+```bash
 python -m venv venv
 source venv/bin/activate
-
 pip install --upgrade pip
 pip install -r requirements.txt
+```
 
+**3. Run the training script**
+```bash
 python src/train_model.py
 ```
 
