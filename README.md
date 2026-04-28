@@ -50,11 +50,9 @@ The script expects:
 
 ## Sample Input Images
 
-Representative synthetic Fe–Cr spinodal microstructure images are provided in:
+Representative synthetic Fe–Cr spinodal microstructure images are provided in `data/sample_images/`.
 
-```text
-data/sample_images/__cap_1.5_moob_2.5.png
-```
+![Sample Input Image](data/sample_images/__cap_1.5_moob_2.5.png)
 
 ---
 
