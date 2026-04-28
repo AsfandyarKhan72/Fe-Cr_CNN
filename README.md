@@ -51,7 +51,7 @@ The script expects:
 
 ## Sample Input Images
 
-Representative synthetic Fe–Cr spinodal microstructure images are provided in `data/sample_images/`.
+Representative synthetic Fe–Cr spinodal microstructure images from `data/sample_images/`:
 
 <p align="center">
   <img src="data/sample_images/__cap_0.5_moob_0.5.png" width="200"/>
@@ -59,6 +59,7 @@ Representative synthetic Fe–Cr spinodal microstructure images are provided in 
   <img src="data/sample_images/__cap_2.5_moob_10.png" width="200"/>
   <img src="data/sample_images/__cap_9_moob_4.png" width="200"/>
 </p>
+<p align="center"><em>Representative Fe–Cr spinodal microstructure images at varying κ and M values</em></p>
 
 ---
 
