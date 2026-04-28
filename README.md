@@ -55,6 +55,8 @@ Representative synthetic Fe–Cr spinodal microstructure images are provided in:
 ```text
 data/sample_images/__cap_1.5_moob_2.5.png
 
+---
+
 ## Running the code
 
 1. Place the synthetic images and `data.csv` in the expected folders.
