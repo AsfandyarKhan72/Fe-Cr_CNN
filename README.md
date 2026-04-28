@@ -19,16 +19,16 @@ This work presents a simulation-informed deep learning framework for estimating 
 - the **gradient-energy coefficient** (`κ`)
 - an **effective mobility parameter** (`M`)
 
-from microstructural images. :contentReference[oaicite:0]{index=0}
+from microstructural images.
 
 This repository is intended to support reproducible research and open scientific dissemination by providing code, input-file expectations, and representative workflow documentation for reuse by other researchers.
 
 ---
 
-## Repository contents
+## Repository Contents
 
-- `data/` — input images and CSV labels
-- `train_model.py` — main script for feature extraction, training, evaluation, and experimental inference
+- `src/` — source code for feature extraction, CNN training, evaluation, and inference
+- `data/sample_images/` — representative Fe–Cr spinodal microstructure images
 - `README.md` — project description and usage notes
 
 ## Requirements
@@ -47,6 +47,13 @@ The script expects:
 - a CSV file containing image filenames and labels `(κ, M)`
 - synthetic grayscale microstructure images
 - an experimental HAADF-STEM-based image for inference
+
+## Sample Input Images
+
+Representative synthetic Fe–Cr spinodal microstructure images are provided in:
+
+```text
+data/sample_images/__cap_1.5_moob_2.5.png
 
 ## Running the code
 
