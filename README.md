@@ -35,12 +35,12 @@ This repository is intended to support reproducible research and open scientific
 ## Requirements
 
 Recommended packages:
-- Python 3.9+
 - TensorFlow
 - NumPy
 - pandas
 - matplotlib
 - scikit-learn
+- Pillow
 
 ## Input data
 
@@ -69,7 +69,16 @@ Representative synthetic Fe–Cr spinodal microstructure images are provided in 
 3. Run:
 
 ```bash
-python train_model.py
+git clone https://github.com/AsfandyarKhan72/Fe-Cr_CNN.git
+cd Fe-Cr_CNN
+
+python -m venv venv
+source venv/bin/activate
+
+pip install --upgrade pip
+pip install -r requirements.txt
+
+python src/train_model.py
 ```
 
 ---
