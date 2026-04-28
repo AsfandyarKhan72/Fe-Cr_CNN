@@ -54,6 +54,7 @@ Representative synthetic Fe–Cr spinodal microstructure images are provided in:
 
 ```text
 data/sample_images/__cap_1.5_moob_2.5.png
+```
 
 ---
 
