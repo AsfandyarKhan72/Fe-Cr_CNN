@@ -28,6 +28,7 @@ This repository is intended to support reproducible research and open scientific
 ## Repository Contents
 
 - `src/` — source code for feature extraction, CNN training, evaluation, and inference
+- `data/data.csv` — a CSV file containing image filenames and labels `(κ, M)`
 - `data/sample_images/` — representative Fe–Cr spinodal microstructure images
 - `README.md` — project description and usage notes
 
