@@ -69,6 +69,7 @@ Representative synthetic Fe–Cr spinodal microstructure images are provided in 
 
 ```bash
 python train_model.py
+```
 
 ---
 
