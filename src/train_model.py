@@ -104,7 +104,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 # --- Paths ---
 BASE     = "data/images"
 CSV_PATH = "data/data.csv"
-SAVE_DIR = "results"
+SAVE_DIR = "results" # All outputs (weights, plots, CSVs) are saved here
 EXP_PATH = "data/Figure_1a_CNN_Pred.png"
 
 os.makedirs(SAVE_DIR, exist_ok=True)
