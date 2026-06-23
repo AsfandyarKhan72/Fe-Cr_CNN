@@ -131,9 +131,27 @@ python src/train_model.py
 
 ## Acknowledgment
 
-The authors appreciate the support of the National Science Foundation grant **DMR-2142935**. We would like to acknowledge the high-performance computing support of the Borah compute cluster(DOI: 10.18122/oit/3/boisestate) provided by Boise State University’s Research Computing Department.
+This work was supported in part by the National Science Foundation under Grant No. **DMR-2142935**.
+
+The authors acknowledge the high-performance computing support of the Borah Compute Cluster (DOI: 10.18122/oit/3/boisestate) provided by Boise State University's Research Computing Department.
 
 ---
+
+## Citation
+
+If you use this repository in your research, please cite:
+
+```bibtex
+@article{khan2026fecrcnn,
+  author = {Asfandyar Khan and Amir Abbas Kazemzadeh and Mahmood Mamivand},
+  title = {Simulation-informed Deep Learning for Estimating Material Parameters from Microstructural Morphology},
+  journal = {Computational Materials Science},
+  volume = {272},
+  pages = {114875},
+  year = {2026},
+  doi = {10.1016/j.commatsci.2026.114875}
+}
+```
 
 ## Contact
 
