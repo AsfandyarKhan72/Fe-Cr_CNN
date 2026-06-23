@@ -11,7 +11,6 @@ This repository contains the code associated with the manuscript:
 **Simulation-Informed Deep Learning for Estimating Material Parameters from Microstructural Morphology**  
 **Authors:** Asfandyar Khan, Amir Abbas Kazemzadeh, Mahmood Mamivand
 
-> **Note**  
 ## Associated Publication
 
 **Simulation-informed Deep Learning for Estimating Material Parameters from Microstructural Morphology**
