@@ -38,7 +38,7 @@ The model predicts:
 - Gradient energy coefficient (κ)
 - Effective mobility (M)
 
-directly from microstructural images. The framework uses synthetic microstructures generated from Cahn–Hilliard phase-field simulations to train a convolutional neural network for inverse parameter estimation.
+directly from microstructural images. The framework leverages simulation-generated microstructures to learn morphology–parameter relationships and enable rapid inverse estimation of phase-field model parameters.
 
 ## Key Results
 
