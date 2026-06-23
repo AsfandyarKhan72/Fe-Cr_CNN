@@ -59,7 +59,6 @@ Additional findings include:
 ---
 
 ## Repository Structure
-## Repository Structure
 
 ```text
 Fe-Cr_CNN/
@@ -72,10 +71,8 @@ Fe-Cr_CNN/
 ├── LICENSE
 └── CITATION.cff
 
-- `src/` — source code for feature extraction, CNN training, evaluation, and inference
-- `data/data.csv` — a CSV file containing image filenames and labels `(κ, M)`
-- `data/sample_images/` — representative Fe–Cr spinodal microstructure images
-- `README.md` — project description and usage notes
+---
+
 
 ## Requirements
 
