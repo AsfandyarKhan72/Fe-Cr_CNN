@@ -129,14 +129,6 @@ python src/train_model.py
 
 ---
 
-## Acknowledgment
-
-This work was supported in part by the National Science Foundation under Grant No. **DMR-2142935**.
-
-The authors acknowledge the high-performance computing support of the Borah Compute Cluster (DOI: 10.18122/oit/3/boisestate) provided by Boise State University's Research Computing Department.
-
----
-
 ## Citation
 
 If you use this repository in your research, please cite:
@@ -152,6 +144,15 @@ If you use this repository in your research, please cite:
   doi = {10.1016/j.commatsci.2026.114875}
 }
 ```
+
+## Acknowledgment
+
+This work was supported in part by the National Science Foundation under Grant No. **DMR-2142935**.
+
+The authors acknowledge the high-performance computing support of the Borah Compute Cluster (DOI: 10.18122/oit/3/boisestate) provided by Boise State University's Research Computing Department.
+
+---
+
 
 ## Contact
 
