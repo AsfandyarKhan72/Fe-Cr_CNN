@@ -12,7 +12,15 @@ This repository contains the code associated with the manuscript:
 **Authors:** Asfandyar Khan, Amir Abbas Kazemzadeh, Mahmood Mamivand
 
 > **Note**  
-> The associated manuscript is currently **under review** in Computational Materials Science.
+## Associated Publication
+
+**Simulation-informed Deep Learning for Estimating Material Parameters from Microstructural Morphology**
+
+**Asfandyar Khan**, **Amir Abbas Kazemzadeh**, and **Mahmood Mamivand**
+
+*Computational Materials Science*, 2026
+
+DOI: https://doi.org/10.1016/j.commatsci.2026.114875
 
 This work presents a simulation-informed deep learning framework for estimating phase-field model parameters directly from microstructural morphology. Synthetic Fe–Cr spinodal microstructures are generated using a Cahn–Hilliard phase-field model, and a convolutional neural network based on a frozen **EfficientNetB7** feature extractor with a **multi-task regression head** is trained to predict:
 
