@@ -58,7 +58,19 @@ Additional findings include:
 
 ---
 
-## Repository Contents
+## Repository Structure
+## Repository Structure
+
+```text
+Fe-Cr_CNN/
+├── data/
+│   ├── data.csv
+│   └── sample_images/
+├── src/
+├── README.md
+├── requirements.txt
+├── LICENSE
+└── CITATION.cff
 
 - `src/` — source code for feature extraction, CNN training, evaluation, and inference
 - `data/data.csv` — a CSV file containing image filenames and labels `(κ, M)`
