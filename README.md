@@ -1,23 +1,24 @@
 # Fe–Cr_CNN
 
-*Simulation-informed deep learning for estimating phase-field model parameters from Fe-Cr spinodal microstructural morphology.*
+*Simulation-informed Deep Learning for Estimating Material Parameters from Microstructural Morphology*
 
 ---
 
 ## Overview
 
-This repository contains the code associated with the manuscript:
+This repository provides the code, sample data, and trained workflow associated with the published study:
 
-**Simulation-Informed Deep Learning for Estimating Material Parameters from Microstructural Morphology**  
-**Authors:** Asfandyar Khan, Amir Abbas Kazemzadeh, Mahmood Mamivand
+**Simulation-informed Deep Learning for Estimating Material Parameters from Microstructural Morphology**
+
+The framework combines phase-field simulations and deep learning to estimate phase-field model parameters directly from Fe–Cr spinodal microstructures.
 
 ## Associated Publication
 
 **Simulation-informed Deep Learning for Estimating Material Parameters from Microstructural Morphology**
 
-**Asfandyar Khan**, **Amir Abbas Kazemzadeh**, and **Mahmood Mamivand**
+Asfandyar Khan, Amir Abbas Kazemzadeh, Mahmood Mamivand
 
-*Computational Materials Science*, 2026
+*Computational Materials Science* (2026)
 
 DOI: https://doi.org/10.1016/j.commatsci.2026.114875
 
@@ -38,7 +39,22 @@ The model predicts:
 - Gradient energy coefficient (κ)
 - Effective mobility (M)
 
-directly from microstructural images.
+directly from microstructural images. The framework uses synthetic microstructures generated from Cahn–Hilliard phase-field simulations to train a convolutional neural network for inverse parameter estimation.
+
+## Key Results
+
+The proposed framework demonstrated strong predictive performance on synthetic and unseen data:
+
+| Parameter | Test R² |
+|------------|------------|
+| κ | 0.995 |
+| M | 0.992 |
+
+Additional findings include:
+
+- Accurate interpolation on unseen off-grid parameter combinations
+- Robust performance across an extended mobility range
+- Successful proof-of-concept application to an experimental Fe–Cr microstructure
 
 ---
 
