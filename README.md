@@ -77,7 +77,8 @@ Fe-Cr_CNN/
 
 ## Requirements
 
-Recommended packages:
+Core dependencies:
+
 - TensorFlow
 - NumPy
 - pandas
