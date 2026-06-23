@@ -1,4 +1,4 @@
-# FeCr_CNN
+# Fe–Cr_CNN
 
 *Simulation-informed deep learning for estimating phase-field model parameters from Fe-Cr spinodal microstructural morphology.*
 
