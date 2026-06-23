@@ -40,15 +40,6 @@ The model predicts:
 
 directly from microstructural images.
 
-This work presents a simulation-informed deep learning framework for estimating phase-field model parameters directly from microstructural morphology. Synthetic Fe–Cr spinodal microstructures are generated using a Cahn–Hilliard phase-field model, and a convolutional neural network based on a frozen **EfficientNetB7** feature extractor with a **multi-task regression head** is trained to predict:
-
-- the **gradient-energy coefficient** (`κ`)
-- an **effective mobility parameter** (`M`)
-
-from microstructural images.
-
-This repository is intended to support reproducible research and open scientific dissemination by providing code, input-file expectations, and representative workflow documentation for reuse by other researchers.
-
 ---
 
 ## Repository Contents
