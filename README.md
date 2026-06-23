@@ -21,6 +21,25 @@ This repository contains the code associated with the manuscript:
 
 DOI: https://doi.org/10.1016/j.commatsci.2026.114875
 
+## Scientific Scope
+
+This repository implements a simulation-informed deep learning framework for inverse estimation of phase-field parameters from Fe–Cr spinodal microstructures.
+
+The workflow combines:
+
+- Cahn–Hilliard phase-field simulations
+- Synthetic microstructure generation
+- EfficientNetB7 feature extraction
+- Multi-task regression
+- Morphology-based inverse parameter estimation
+
+The model predicts:
+
+- Gradient energy coefficient (κ)
+- Effective mobility (M)
+
+directly from microstructural images.
+
 This work presents a simulation-informed deep learning framework for estimating phase-field model parameters directly from microstructural morphology. Synthetic Fe–Cr spinodal microstructures are generated using a Cahn–Hilliard phase-field model, and a convolutional neural network based on a frozen **EfficientNetB7** feature extractor with a **multi-task regression head** is trained to predict:
 
 - the **gradient-energy coefficient** (`κ`)
