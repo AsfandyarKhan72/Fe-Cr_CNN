@@ -15,13 +15,15 @@ Asfandyar Khan, Amir Abbas Kazemzadeh, Mahmood Mamivand
 
 DOI: https://doi.org/10.1016/j.commatsci.2026.114875
 
+**Paper:** https://www.sciencedirect.com/science/article/pii/S0927025626006188
+
 ## Overview
 
 This repository provides the code, sample data, and trained workflow associated with the published study:
 
 **Simulation-informed Deep Learning for Estimating Material Parameters from Microstructural Morphology**
 
-The framework combines phase-field simulations and deep learning to estimate phase-field model parameters directly from Fe–Cr spinodal microstructures.
+The framework combines phase-field simulations and deep learning to estimate phase-field model parameters directly from Fe–Cr spinodal microstructures. By learning the relationship between microstructural morphology and material parameters, the framework enables rapid parameter estimation without repeated computationally expensive inverse phase-field simulations.
 
 ## Scientific Scope
 
